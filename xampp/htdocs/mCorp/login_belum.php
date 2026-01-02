@@ -1,0 +1,1 @@
+<?php echo "<script>alert('Anda belum Login! Silahkan Login terlebih dahulu.');window.location='login.php';</script>"; ?>

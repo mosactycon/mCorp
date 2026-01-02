@@ -1,0 +1,85 @@
+
+      h1 {
+        text-transform: uppercase;
+      }
+
+  .button_tambah {
+      box-shadow: inset 0 0 0 0 #ffffff;
+      transition: ease-out 0.2s;
+
+      color: #fff;
+      padding: 10px;
+      text-decoration: none;
+      font-size: 12px;
+      background-color: #F4364C;
+  }
+
+  .button_tambah:hover {
+      box-shadow: inset 135px 0px 0px 0px #1e1e28;
+      color: #fff;
+  }
+
+    table.table_yc {
+      border: solid 1px #DDEEEE;
+      border-collapse: collapse;
+      border-spacing: 0;
+      width: 90%;
+      margin: 10px auto 10px auto;
+    }
+    table.table_yc thead th {
+        background-color: #1e1e28;
+        border: solid 1px #DDEEEE;
+        color: #fff;
+        padding: 10px;
+        text-align: left;
+        text-shadow: 1px 1px 1px #F4364C;
+        text-decoration: none;
+    }
+    table.table_yc tbody td {
+        border: solid 1px #DDEEEE;
+        color: #333;
+        padding: 10px;
+        text-shadow: 1px 1px 1px #fff;
+    }
+    
+    a.editTambah {
+      text-decoration: none;
+      color: #1e1e28;
+    }
+
+        /*dibawah ini halaman tambah & juga edit*/
+
+    button.button_tambah {
+          color: #fff;
+          padding: 10px;
+          text-decoration: none;
+          font-size: 12px;
+          border: 0px;
+          margin-top: 20px;
+    }
+    section.base div label {
+      margin-top: 10px;
+      float: left;
+      text-align: left;
+      width: 100%;
+    }
+    section.base div input {
+      padding: 6px;
+      width: 100%;
+      box-sizing: border-box;
+      background: #f8f8f8;
+      border: 2px solid #ccc;
+      outline-color: salmon;
+    }
+    section.base div {
+      width: 100%;
+      height: auto;
+    }
+    .base {
+      width: 400px;
+      height: auto;
+      padding: 20px;
+      margin-left: auto;
+      margin-right: auto;
+      background: #ededed;
+    }
