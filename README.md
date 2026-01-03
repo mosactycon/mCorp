@@ -22,6 +22,8 @@ Copy the "mCorp" folder into:
 
 C:\xampp\htdocs
 
+---
+
 ### 3️⃣ Create the database:
 Open your browser and go to:
 http://localhost/phpmyadmin/
