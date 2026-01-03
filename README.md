@@ -13,20 +13,22 @@ https://www.apachefriends.org
 Start the following services from **XAMPP Control Panel**:
 - ✅ Apache
 - ✅ MySQL
+<img width="300" alt="image" src="https://github.com/user-attachments/assets/6a0b4387-ffff-4a95-9c2b-6074db152f87" />
 
 ---
 
 ### 2️⃣ Place Project Files
-Since i already setup the entire project into "xampp" folder,
-copy the "xampp" folder into: 
+Copy the "mCorp" folder into: 
 
-C:\
+C:\xampp\htdocs
 
-In case you need to manually create the database:
+### 3️⃣ Create the database:
+Open your browser and go to:
+http://localhost/phpmyadmin/
 
-database name: mcorp_database
+Create the database with name: mcorp_database
 
-SQL query:
+Create the tables with SQL query:
 
 CREATE TABLE liketable (
   id_project INT,
@@ -56,7 +58,7 @@ CREATE TABLE usercorp (
 
 ---
 
-### 3️⃣ Access the Website
+### 4️⃣ Access the Website
 
 Open your browser and go to:
 http://localhost/mCorp/
@@ -77,26 +79,21 @@ Improving database validation
 
 ---
 
-4️⃣ Preview
-<img width="1920" height="1078" alt="MCorp community - Google Chrome 1_2_2026 10_57_24 AM" src="https://github.com/user-attachments/assets/7fdeb37a-4b91-472d-b6a3-bfb1ff9b3831" />
+### 5️⃣ Preview
 
-<img width="1920" height="1078" alt="MCorp community - Google Chrome 1_2_2026 10_57_36 AM" src="https://github.com/user-attachments/assets/a697c343-2b33-4580-b000-93a25beb9c34" />
-
-<img width="1920" height="1078" alt="MCorp community - Google Chrome 1_2_2026 10_57_42 AM" src="https://github.com/user-attachments/assets/013deffa-6e03-4592-b62a-f426c061df5b" />
-
-<img width="1920" height="1078" alt="MCorp community - Google Chrome 1_2_2026 10_57_49 AM" src="https://github.com/user-attachments/assets/1c4462b4-4f39-478a-a91d-0dec4ff5e4bd" />
-
-<img width="1920" height="1078" alt="MCorp community - Google Chrome 1_2_2026 10_57_57 AM" src="https://github.com/user-attachments/assets/a0e6faa3-898d-4c71-a70f-a2a9b6154db8" />
-
-<img width="1920" height="1078" alt="MCorp community - Google Chrome 1_2_2026 10_58_23 AM" src="https://github.com/user-attachments/assets/72542c5a-b282-41ba-8c8f-7f5fc77be79a" />
-
-<img width="1920" height="1078" alt="MCorp community - Google Chrome 1_2_2026 10_58_31 AM" src="https://github.com/user-attachments/assets/20d7917c-cf23-48d4-95ee-68063d83d8dd" />
-
-<img width="1920" height="1078" alt="MCorp community - Google Chrome 1_2_2026 10_58_45 AM" src="https://github.com/user-attachments/assets/73292c07-8e3e-4cca-8fff-7a05a7563524" />
-
-<img width="1920" height="1078" alt="MCorp community - Google Chrome 1_2_2026 10_58_57 AM" src="https://github.com/user-attachments/assets/a7f364b5-c8cd-4ee2-bf22-689d26d18545" />
-
-<img width="1920" height="1078" alt="MCorp community - Google Chrome 1_2_2026 10_59_20 AM" src="https://github.com/user-attachments/assets/a14fefb3-98d6-439e-9973-3aab02b863f1" />
-
-<img width="1920" height="1078" alt="MCorp community - Google Chrome 1_2_2026 10_59_42 AM" src="https://github.com/user-attachments/assets/abb8f144-3320-47b4-980a-cb0e938b8f4c" />
+<img width="500" alt="Main Page" src="https://github.com/user-attachments/assets/a0c6de38-4c23-46a6-af72-bf6b73097fce" />
+<img width="500" alt="Main Page Project Post" src="https://github.com/user-attachments/assets/290560e3-aa7c-41e0-b178-8ae201776ecd" />
+<img width="500" alt="Footer" src="https://github.com/user-attachments/assets/8f435c21-1d9e-448a-bd66-e2ad459493cc" />
+<img width="500" alt="Sign In" src="https://github.com/user-attachments/assets/29cccbe2-2913-4e9e-b2bd-073c41c2a1bd" />
+<img width="500" alt="Sign Up" src="https://github.com/user-attachments/assets/ccb19bf8-3c37-4a15-a663-403262cde8bc" />
+<img width="500" alt="Post Detail" src="https://github.com/user-attachments/assets/20340f0d-a9ce-496b-bace-6eeff862f7ee" />
+<img width="500" alt="Post Detail (2)" src="https://github.com/user-attachments/assets/655c1360-5f2a-4d4e-b5bb-4eda9b099cda" />
+<img width="500" alt="Project List" src="https://github.com/user-attachments/assets/1cc9a26f-2e2b-4780-87bf-896266949331" />
+<img width="500" alt="Add Project" src="https://github.com/user-attachments/assets/4731e986-54f8-480f-9495-65b5909e22c1" />
+<img width="500" alt="Edit Project" src="https://github.com/user-attachments/assets/a7378c5c-77f9-419d-87bb-edfbb66f5e9b" />
+<img width="500" alt="Pop Up Window" src="https://github.com/user-attachments/assets/85f2fa57-adf4-4ee0-871e-bc78bd66845b" />
+<img width="500" alt="Database" src="https://github.com/user-attachments/assets/fe2ff8f7-e0e7-4649-b6af-69d5114a8d5d" />
+<img width="500" alt="Table 1" src="https://github.com/user-attachments/assets/adc62967-15b6-43e5-9f04-154583163ddd" />
+<img width="500" alt="Table 2" src="https://github.com/user-attachments/assets/1772e5e1-07ae-492f-a13c-6e2ac4d72bea" />
+<img width="500" alt="Table 3" src="https://github.com/user-attachments/assets/43a0b3fe-0179-4f0d-99e7-01000b61bca6" />
 
