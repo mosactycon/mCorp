@@ -1,0 +1,1 @@
+<?php echo "<script>alert('You are not logged in! Please log in first.');window.location='login.php';</script>"; ?>
